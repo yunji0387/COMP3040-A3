@@ -15,3 +15,9 @@
 ## Description of resources - formatted as JSON:
 
 ## Sample request with sample response:
+
+## Group 07 - Members
+Kim, Gyuri - KIMG2
+Anghan, Dharmit Kishorbhai - ANGHANDK
+Ahir, Md Ahiduzzaman - AHIRMA
+How, Yun Ji - HOWYJ
