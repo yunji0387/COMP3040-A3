@@ -17,7 +17,7 @@
 ## Sample request with sample response:
 
 ## Group 07 - Members
- - Kim, Gyuri (KIMG2)
+ - [Kim, Gyuri (KIMG2)](https://github.com/gyuyuu)
  - Anghan, Dharmit Kishorbhai (ANGHANDK)
  - Ahir, Md Ahiduzzaman - (AHIRMA)
  - How, Yun Ji (HOWYJ)
