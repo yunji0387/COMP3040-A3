@@ -18,6 +18,6 @@
 
 ## Group 07 - Members
  - [Kim, Gyuri (KIMG2)](https://github.com/gyuyuu)
- - Anghan, Dharmit Kishorbhai (ANGHANDK)
+ - [Anghan, Dharmit Kishorbhai (ANGHANDK)](https://github.com/dkanghan)
  - Ahir, Md Ahiduzzaman - (AHIRMA)
  - How, Yun Ji (HOWYJ)
