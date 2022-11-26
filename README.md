@@ -23,7 +23,7 @@
 ## Sample request with sample response:
 
  1. Browse bus schedule by bus stop
-     - https://api.manitoba-transit.com/schedule/json?stop=82578 
+     - sample request : https://api.manitoba-transit.com/schedule/json?stop=82578 
 
 ## Group 07 - Members
  - [Kim, Gyuri (KIMG2)](https://github.com/gyuyuu)
