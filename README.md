@@ -21,3 +21,8 @@
  - [Anghan, Dharmit Kishorbhai (ANGHANDK)](https://github.com/dkanghan)
  - Ahir, Md Ahiduzzaman - (AHIRMA)
  - How, Yun Ji (HOWYJ)
+
+## Reference
+ 1. https://api.winnipegtransit.com/home/api/v3/services/destinations
+ 2. https://api.winnipegtransit.com/home/api/v3/services/routes
+ 3. https://api.winnipegtransit.com/home/api/v3/services/stops
