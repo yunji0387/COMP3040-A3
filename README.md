@@ -24,6 +24,8 @@
 
  1. Browse bus schedule by bus stop
      - sample request : https://api.manitoba-transit.com/schedule/json?stop=82578 
+     - sample response : 
+     
 
 ## Group 07 - Members
  - [Kim, Gyuri (KIMG2)](https://github.com/gyuyuu)
