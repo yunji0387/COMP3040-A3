@@ -25,7 +25,7 @@
  1. Browse bus schedule by bus stop and date
      - sample request :
     ```
-         https://api.manitoba-transit.com/schedule/json?stop=82578&date=2022-07-30 
+         https://api.manitoba-transit.com/bus/schedule/json?stop=82578&date=2022-07-30 
     ```
      - sample response : 
     ```
@@ -34,19 +34,19 @@
            {
             [
              {
-               "number": "850"
-               "name": "Brandon",
-               "time": "2022-07-30T02:53:42"
+               "bus-number": "850"
+               "bus-name": "Brandon",
+               "arrival-time": "2022-07-30T02:53:42"
              },
              {
-               "number": "500"
-               "name": "Thompson",
-               "time": "2022-07-30T04:58:02"
+               "bus-number": "500"
+               "bus-name": "Thompson",
+               "arrival-time": "2022-07-30T04:58:02"
              },
              {
-               "number": "20"
-               "name": "Winkler",
-               "time": "2022-07-30T05:38:36"
+               "bus-number": "20"
+               "bus-name": "Winkler",
+               "arrival-time": "2022-07-30T05:38:36"
              }
            ],
             "status":"OK"
@@ -56,7 +56,7 @@
  2. Browse list of bus number by bus stop
      - sample request :
     ```
-         https://api.manitoba-transit.com/schedule/json?stop=82578 
+         https://api.manitoba-transit.com/bus/number/list/json?stop=82578 
     ```
      - sample response : 
     ```
@@ -65,22 +65,49 @@
            {
             [
              {
-               "number": "850"
-               "name": "Brandon"
+               "bus-number": "850"
+               "bus-name": "Brandon"
              },
              {
-               "number": "500"
-               "name": "Thompson"
+               "bus-number": "500"
+               "bus-name": "Thompson"
              },
              {
-               "number": "20"
-               "name": "Winkler"
+               "bus-number": "20"
+               "bus-name": "Winkler"
              }
            ],
             "status":"OK"
          }
     ```
-    
+ 3. Browse list of stop location by bus number
+     - sample request :
+    ```
+         https://api.manitoba-transit.com/bus/stop/list/json?number=850 
+    ```
+     - sample response : 
+    ```
+         {
+           "results":
+           {
+            [
+             {
+               "stop-number": "82577"
+               "stop-name": "Brandon-Killarney"
+             },
+             {
+               "stop-number": "82578"
+               "stop-name": "Brandon-Freedman"
+             },
+             {
+               "stop-number": "82579"
+               "stop-name": "Brandon-Dalhousie"
+             }
+           ],
+            "status":"OK"
+         }
+    ```
+
 ## Group 07 - Members
  - [Kim, Gyuri (KIMG2)](https://github.com/gyuyuu)
  - [Anghan, Dharmit Kishorbhai (ANGHANDK)](https://github.com/dkanghan)
