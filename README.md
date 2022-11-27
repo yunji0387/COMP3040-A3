@@ -24,11 +24,11 @@
 
  1. Browse bus schedule by bus stop and date
      - sample request :
-    ```sample request
+    ```
          https://api.manitoba-transit.com/schedule/json?stop=82578&date=2022-07-30 
     ```
      - sample response : 
-    ```sample response
+    ```
          {
            "results":
            {
@@ -53,15 +53,13 @@
          }
     ```
 
-
-  2. Browse list of bus number by bus stop
+ 2. Browse list of bus number by bus stop
      - sample request :
-    ```sample request
-          https://api.manitoba-transit.com/bus/list/json?stop=82578
     ```
-   
-     - sample response :
-    ```sample response
+         https://api.manitoba-transit.com/schedule/json?stop=82578 
+    ```
+     - sample response : 
+    ```
          {
            "results":
            {
@@ -81,8 +79,8 @@
            ],
             "status":"OK"
          }
-    ```       
-
+    ```
+    
 ## Group 07 - Members
  - [Kim, Gyuri (KIMG2)](https://github.com/gyuyuu)
  - [Anghan, Dharmit Kishorbhai (ANGHANDK)](https://github.com/dkanghan)
