@@ -22,6 +22,12 @@
 ## Description of resources - formatted as JSON:
 
  1. 
+ ### Parameters
+| Parameter     | Type    | Required | Description |
+| :-------:     | :--:    | :------: | :---------: |
+| Bus Number    | int     | Yes      | Bus Number given by user |
+| Stop Number   | int     | Yes      | Stop Number given by user |
+| Date          | int     | No       | Date Given by user |
 
 ## Sample request with sample response:
 
