@@ -18,10 +18,7 @@
  4. List all bus number ??
  
  5. List total bus amount ??
-
-## Description of resources - formatted as JSON:
-
- 1. 
+ 
  ### Parameters
 | Parameter     | Type    | Required | Description |
 | :-------:     | :--:    | :------: | :---------: |
