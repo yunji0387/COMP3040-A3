@@ -3,8 +3,9 @@
 # Winnipeg Transit API
 
 ## Description: 
- 1. Our Web Service allows you to get information about Winnipeg Transit services by submitting GET queries to URLs such as: https://api.winnipegtransit.com/web-service-path?and=parameters.
- 2. It can be used to get the bus stop name by using bus stop number as a parameter.
+ Our Web Service allows you to get information about Winnipeg Transit services by submitting GET queries to URLs such as: https://api.winnipegtransit.com/web-service-path?and=parameters.
+ 
+ It can be used to get the bus stop name by using bus stop number as a parameter.
 
 ## Endpoints:
 
