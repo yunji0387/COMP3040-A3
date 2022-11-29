@@ -3,7 +3,8 @@
 # Winnipeg Transit API
 
 ## Description: 
- 1. Our API is straightforward, requiring simply a GET request to https://api.manitoba-transit.com/bus/number/list/json?stop=? When the user provides the bus stop number and the name of the bus stop is returned as the endpoint.
+ 1. Our Web Service allows you to get information about Winnipeg Transit services by submitting GET queries to URLs such as: https://api.winnipegtransit.com/web-service-path?and=parameters.
+ 2. It can be used to get the bus stop name by using bus stop number as a parameter.
 
 ## Endpoints:
 
