@@ -19,7 +19,7 @@
  
  5. List total bus amount ??
  
- ### Parameters
+ ### Parameters 
 | Parameter     | Type    | Required | Description |
 | :-------:     | :--:    | :------: | :---------: |
 | Bus Number    | int     | Yes      | Bus Number given by user |
