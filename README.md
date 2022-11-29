@@ -1,6 +1,6 @@
 # COMP3040-A3
 
-# Winnipeg Transit API
+# Manitoba Transit API
 
 ## Description: 
  Our Web Service allows you to get information about Winnipeg Transit services by submitting GET queries to URLs such as: https://api.winnipegtransit.com/web-service-path?and=parameters.
