@@ -9,7 +9,7 @@
 
 ## Endpoints:
 
- 1. Browse bus schedule by bus stop and date
+ 1. Browse bus schedule by bus stop number and the current date
 
  2. Browse list of bus number(differnt route bus) by bus stop
 
