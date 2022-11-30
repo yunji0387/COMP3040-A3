@@ -11,7 +11,7 @@
 
  1. Browse bus schedule by bus stop number and the current date
 
- 2. Browse list of bus number(differnt route bus) by bus stop
+ 2. Browse list of bus number(differnt route bus) by bus stop number
 
  3. Browse list of stop location by bus number
  
