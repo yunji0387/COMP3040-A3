@@ -15,10 +15,6 @@
 
  3. Browse list of stop location by bus number
  
- 4. List all bus number ??
- 
- 5. List total bus amount ??
- 
  ### Parameters 
 | Parameter     | Type    | Required | Description |
 | :-------:     | :--:    | :------: | :---------: |
