@@ -82,7 +82,7 @@
             "status":"OK"
          }
     ```
- 3. Browse list of stop location by bus number
+ 3. Browse list of stop locations by bus number
      - sample request :
     ```
          https://api.manitoba-transit.com/bus/stop/list/json?number=850 
