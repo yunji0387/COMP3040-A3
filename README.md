@@ -15,12 +15,16 @@
 
  3. Browse list of stop location by bus number
  
+ 4. Browse specific time frame's bus schedules by bus stop number, start date and end date
+ 
  ### Parameters 
 | Parameter     | Type    | Required | Description |
 | :-------:     | :--:    | :------: | :---------: |
 | Bus Number    | int     | Yes      | Bus Number given by user |
 | Stop Number   | int     | Yes      | Stop Number given by user |
-| Date          | int     | No       | Date Given by user |
+| Date          | int     | Yes      | Date Given by user |
+| Start         | int     | Yes      | Start Date Given by user |
+| End           | int     | Yes      | End Date Given by user |
 
 ## Sample request with sample response:
 
@@ -104,6 +108,36 @@
              {
                "stop-number": "82579"
                "stop-name": "Brandon-Dalhousie"
+             }
+           ],
+            "status":"OK"
+         }
+    ```
+ 4. Browse specific time frame's bus schedules by bus stop number, start date and end date
+     - sample request :
+    ```
+         https://api.manitoba-transit.com/bus/schedule/json?stop=82578&start=2022-07-30&end=2022-07-31
+    ```
+     - sample response : 
+    ```
+         {
+           "results":
+           {
+            [
+             {
+               "bus-number": "850"
+               "bus-name": "Brandon",
+               "arrival-time": "2022-07-30T02:53:42"
+             },
+             {
+               "bus-number": "500"
+               "bus-name": "Thompson",
+               "arrival-time": "2022-07-30T04:58:02"
+             },
+             {
+               "bus-number": "20"
+               "bus-name": "Winkler",
+               "arrival-time": "2022-07-31T05:38:36"
              }
            ],
             "status":"OK"
